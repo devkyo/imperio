@@ -5,11 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next build && next export -o build/"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.19",
     "next": "10.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
-  }
+    "react-dom": "17.0.2",
+    "sass": "^1.32.12"
+  },
+  "license": "UNLICENSED"
 }
